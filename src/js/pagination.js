@@ -43,7 +43,3 @@ const onLoadMoreBtnElClick = event => {
 };
 
 loadMoreBtnEL.addEventListener('click', onLoadMoreBtnElClick);
-
-fetch(
-  'https://api.unsplash.com/?client_id=LxvKVGJqiSe6NcEVZOaLXC-f2JIIWZaq_o0WrF8mwJc&query=cat&page=1&per_page=10'
-);
